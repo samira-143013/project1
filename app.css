@@ -1,0 +1,26 @@
+*{box-sizing: border-box;}
+body{font-family:Arial, Helvetica, sans-serif; font-size: 24px; min-height: 100vh;max-width: 100%;min-width: 150px;}
+.mybg{max-width: 100%;min-width: 150px;
+background-image: url(https://img.freepik.com/free-photo/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_188544-9655.jpg); 
+background-repeat: no-repeat;background-position:center; background-attachment: scroll;background-size: cover;
+margin-right: 20px;margin-left: 20px;margin-top: 20px; border-radius: 12px;}
+h1{color: gray; font-size: 80px; text-align: center;padding-top: 20PX; opacity:20%;
+margin-bottom: 0PX;}
+.navbar ul{overflow: hidden;background-color: rgb(11, 2, 58);padding: 0px;margin: 0px;padding-top: 5px; border-radius: 12px;}
+.navbar a{text-decoration: none;padding: 20px;display: flex; text-align: center;}
+.navbar li{float: left;}
+
+ul li{list-style-type: none;}
+.nav-item{transition:all 150ms ease-in;}
+.nav-item:hover{background-color:#fff;}
+li{color:#000;}
+
+.content{opacity: 100%;}
+::selection{color:black;background-color:rgb(235, 11, 11);}
+.change{margin-bottom: 100px;}
+
+
+
+footer{background-color:rgb(11, 2, 58) ; color:#fff; border-radius: 12px;font-size: 24px;padding-top: 5px; position: fixed; bottom: 0; z-index: 5; width: 100%;text-align: center;}
+
+
